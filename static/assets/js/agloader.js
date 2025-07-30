@@ -19,7 +19,7 @@ urlInput.style.color = 'rgba(100, 100, 100, 0.973)';
 if (selectedTheme === 'deepsea') {
     urlBar.style.background = "rgb(6, 22, 35)";
 } else if (selectedTheme === 'equinox') {
-    urlBar.style.backgroundImage = "url('/assets/img/topographic_splash.webp')";
+    urlBar.style.backgroundImage = "url('https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/img/topographic_splash.webp')";
 } else if (selectedTheme === 'swamp') {
     urlBar.style.background = "rgb(12, 43, 22)";
 } else if (selectedTheme === 'ocean') {
