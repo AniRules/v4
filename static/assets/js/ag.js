@@ -12,7 +12,7 @@ function retroBowl() {
   document.head.appendChild(cloakcheckScript);
 
   var functionsScript = document.createElement("script");
-  functionsScript.src = "/assets/js/functions.js";
+  functionsScript.src = "https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/js/functions.js";
   document.head.appendChild(functionsScript);
 
   document.body.innerHTML = `
@@ -23,7 +23,7 @@ function retroBowl() {
   <script src="https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/js/ag.js"></script>
   <script>
     window.navigator.serviceWorker
-      .register("/sw.js", {
+      .register("https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/sw.js", {
         scope: __uv$config.prefix,
       });
   </script>
