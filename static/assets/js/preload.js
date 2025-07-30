@@ -30,7 +30,7 @@ window.onload = function() {
 			scope: '/assignments/',
 		});
 		async function fetchDomains() {
-			const response = await fetch('/data/b-list.json');
+			const response = await fetch('https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/data/b-list.json');
 			const data = await response.json();
 			return data.domains;
 		}
