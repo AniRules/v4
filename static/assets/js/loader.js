@@ -26,7 +26,7 @@ lucide.createIcons();
 
 const themeStyles = {
   deepsea: { background: "rgb(6, 22, 35)" },
-  equinox: { backgroundImage: "url('/assets/img/topographic_splash.webp')" },
+  equinox: { backgroundImage: "url('https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/img/topographic_splash.webp')" },
   swamp: { background: "rgb(12, 43, 22)" },
   starry: { background: "rgb(63, 3, 53)" },
   magma: { background: "rgb(31, 26, 26)" },
@@ -57,7 +57,7 @@ document.getElementById('more').addEventListener('click', function() {
 });
 
 function fetchDomains() {
-	return fetch('/data/b-list.json').then(response => response.json()).then(data => data.domains).catch(error => {
+	return fetch('https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/data/b-list.json').then(response => response.json()).then(data => data.domains).catch(error => {
 		console.error('Error fetching domains:', error);
 		return []; // ADds a promise so scope can work
 	});
