@@ -18,7 +18,7 @@ function live() {
         applyTheme('rgba(19, 34, 48, 0.8)', "linear-gradient(to bottom right, rgb(16, 52, 82), rgb(9, 34, 55), black)");
         break;
       case 'equinox':
-        applyTheme('rgb(24 24 24 / 32%)', "url('/assets/img/equinox.webp')");
+        applyTheme('rgb(24 24 24 / 32%)', "url('https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/img/equinox.webp')");
         document.querySelectorAll('input').forEach(inputElement => {
           inputElement.style.transition = '.2s';
           inputElement.style.backgroundColor = 'rgba(15, 15, 15, 0.89)';
