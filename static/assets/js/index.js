@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 const input = document.querySelector("input");
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
-  window.navigator.serviceWorker.register("/lab.js", {
+  window.navigator.serviceWorker.register("https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/lab.js", {
     scope: '/assignments/',
   }).then(() => {
     let url = input.value.trim();
