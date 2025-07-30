@@ -47,7 +47,7 @@ function addGms(name, imageUrl, gameUrl, width, height) {
   gmsContainer.appendChild(linkElement);
 }
 
-fetch('/data/g-list.json').then(response => {
+fetch('https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/data/g-list.json').then(response => {
   if (!response.ok) {
     throw new Error('Network response was not ok');
   }
