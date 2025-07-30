@@ -1,4 +1,4 @@
-const stockSW = "/uv/sw.js";
+const stockSW = "/sw.js";
 const swAllowedHostnames = ["localhost", "127.0.0.1"];
 const wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
 const connection = new BareMux.BareMuxConnection("/baremux/worker.js");
