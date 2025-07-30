@@ -1,6 +1,6 @@
 @font-face {
     font-family: poppins;
-    src: url(/assets/fonts/poppins.ttf);
+    src: url(https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/fonts/poppins.ttf);
 }
 
 #urlBar {
