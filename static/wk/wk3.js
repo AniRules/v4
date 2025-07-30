@@ -3,8 +3,8 @@ self.__uv$config = {
     bare: '/seal/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/wk/wk1.js', // handler
-    bundle: '/wk/wk2.js', // bundle
-    config: '/wk/wk3.js', // config
-    sw: '/wk/wk4.js', // sw
+    handler: 'https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/wk/wk1.js', // handler
+    bundle: 'https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/wk/wk2.js', // bundle
+    config: 'https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/wk/wk3.js', // config
+    sw: 'https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/wk/wk4.js', // sw
 };
