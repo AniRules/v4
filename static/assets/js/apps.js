@@ -47,7 +47,7 @@ function addApp(name, imageUrl, appUrl, width, height) {
   appContainer.appendChild(linkElement);
 }
 
-fetch('/data/a-list.json').then(response => {
+fetch('https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/data/a-list.json').then(response => {
   if (!response.ok) {
     throw new Error('Network response was not ok');
   }
