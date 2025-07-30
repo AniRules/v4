@@ -107,7 +107,7 @@ function tabCloak() {
 
 function disableTabCloak() {
   var newTitle = "Doge | V4";
-  var newIcon = "/assets/img/doge.jpg";
+  var newIcon = "https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/img/doge.jpg";
 
   localStorage.setItem("tabTitle", newTitle);
   localStorage.setItem("tabIcon", newIcon);
