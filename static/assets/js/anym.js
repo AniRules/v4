@@ -1,6 +1,6 @@
 (function() {
     var defaultTitle = '(1) SalyteLearn';
-    var defaultIcon = '/assets/img/salyte.jpg';
+    var defaultIcon = 'https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/img/salyte.jpg';
     var storedTitle = localStorage.getItem('tabTitle') || defaultTitle;
     var storedIcon = localStorage.getItem('tabIcon') || defaultIcon;
     var icon = document.querySelector('link[rel="icon"]');
@@ -17,7 +17,7 @@
       document.addEventListener("visibilitychange", function() {
         if (document.hidden) {
           document.title = "Google Docs";
-          icon.setAttribute('href', '/assets/img/docs.webp');
+          icon.setAttribute('href', 'https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/img/docs.webp');
         }
         else {
           document.title = storedTitle;
