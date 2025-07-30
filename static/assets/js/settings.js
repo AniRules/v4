@@ -144,19 +144,19 @@ function driveCloak() {
 
 function docsCloak() {
     localStorage.setItem('cloakedTitle', 'Google Docs');
-    localStorage.setItem('cloakedIcon', '/assets/img/docs.webp');
+    localStorage.setItem('cloakedIcon', 'https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/img/docs.webp');
     tabCloak();
 }
 
 function googleCloak() {
     localStorage.setItem('cloakedTitle', 'Google');
-    localStorage.setItem('cloakedIcon', '/assets/img/google.webp');
+    localStorage.setItem('cloakedIcon', 'https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/img/google.webp');
     tabCloak();
 }
 
 function classroomCloak() {
     localStorage.setItem('cloakedTitle', 'Classes');
-    localStorage.setItem('cloakedIcon', '/assets/img/classroom-icon.webp');
+    localStorage.setItem('cloakedIcon', 'https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/assets/img/classroom-icon.webp');
     tabCloak();
 }
 
