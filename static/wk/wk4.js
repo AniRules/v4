@@ -1,5 +1,5 @@
-importScripts('/wk/wk2.js');
-importScripts('/wk/wk3.js');
+importScripts('https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/wk/wk2.js');
+importScripts('https://cdn.jsdelivr.net/gh/AniRules/v4@main/static/wk/wk3.js');
 
 class UVServiceWorker extends EventEmitter {   
     constructor(config = __uv$config) {
